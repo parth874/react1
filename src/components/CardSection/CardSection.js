@@ -15,7 +15,7 @@ export class CardSection extends Component {
                 <section className="homerow" >
                     <div>
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Pack Voltage</h6>
                             <p className="card-text fw-bold fs-5" style={{ }}>
@@ -26,7 +26,7 @@ export class CardSection extends Component {
                     </div>
                     <div>
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Instantaneous Power</h6>
                             <p className="card-text fw-bold fs-5" style={{ }}>
@@ -36,7 +36,7 @@ export class CardSection extends Component {
                     </div>
                     </div>
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Instantaneous Current</h6>
                             <p className="card-text fw-bold fs-5" style={{  }}>
@@ -46,7 +46,7 @@ export class CardSection extends Component {
                     </div>
 
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Average Pack Current </h6>
                             <p className="card-text fw-bold fs-5" style={{  }}>
@@ -54,8 +54,15 @@ export class CardSection extends Component {
                             </p>
                         </div>
                     </div>
+                    <div className="card text-white text-center  m-3" style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        <div className="card-body">
+                            <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Maximum pack Current</h6>
+                            <p className="card-text fw-bold fs-5" style={{}}>0 A
+                            </p>
+                        </div>
+                    </div>
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}> Charging</h6>
                             <p className="card-text fw-bold fs-5" style={{  }}>
@@ -64,11 +71,25 @@ export class CardSection extends Component {
                         </div>
                     </div>
                     <div className="card text-white text-center  m-3"
-                        style={{ width: "15rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
                         <div className="card-body">
                             <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Discharging </h6>
                             <p className="card-text fw-bold fs-5" style={{  }}>
                                 off{this.props.low24}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="card text-white text-center  m-3" style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        <div className="card-body">
+                            <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Pack Power Mode</h6>
+                            <p className="card-text fw-bold fs-5" style={{}}>ACTIVE MODE
+                            </p>
+                        </div>
+                    </div>
+                    <div className="card text-white text-center  m-3" style={{ width: "13rem", backgroundColor: "rgb(43, 43, 43)", marginTop: "0px !important" }}>
+                        <div className="card-body">
+                            <h6 className="card-title" style={{ fontFamily: 'NHaasGroteskDSPro-65Md' }}>Pack Current State</h6>
+                            <p className="card-text fw-bold fs-5" style={{}}>CURRENTSLEEP
                             </p>
                         </div>
                     </div>
